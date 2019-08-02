@@ -1,6 +1,6 @@
 {
   "name": "bountyblok",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeJS client library for using bountyblok's APIs to log challenge tasks and retrieve progress and achievements.",
   "main": "index.js",
   "scripts": {
