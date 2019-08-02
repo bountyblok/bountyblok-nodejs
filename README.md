@@ -1,6 +1,6 @@
-**This library allows you to easily use the bountblok.io APIs via Node.js.**
+**This library allows you to easily use the bountyblok.io APIs via Node.js.**
 
-bountyblok.io is a gamification engine build and powered by the EOS blockchain.
+bountyblok.io is a gamification engine built and powered by the EOS blockchain.
 
 This library is a quick and easy way to Log tasks for challenges as well as retrieve progresses/badges/achievements and more. We will keep updating this library to expose our API calls in the future!
 
