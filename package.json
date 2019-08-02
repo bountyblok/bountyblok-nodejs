@@ -1,0 +1,35 @@
+{
+  "name": "bountyblok",
+  "version": "1.0.0",
+  "description": "nodeJS client library for using bountyblok's APIs to log challenge tasks and retrieve progress and achievements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bountyblok/bountyblok-nodejs.git"
+  },
+  "keywords": [
+    "gamification",
+    "saas",
+    "nodejs",
+    "blockchain"
+  ],
+  "author": "bountyblok.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bountyblok/bountyblok-nodejs/issues"
+  },
+  "homepage": "https://github.com/bountyblok/bountyblok-nodejs#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/request": "^2.0.3"
+  }
+}
