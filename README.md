@@ -30,6 +30,53 @@ You may also use [yarn](https://yarnpkg.com/en/) to install.
 yarn add bountyblok
 ```
 
+<a name="general"></a>
+## Examples
+
+```js
+const client = require('bountyblok')
+const { 
+    classes: {
+        GetChallengeRequest,
+        GetLevelsRequest,
+        LogAppRequest
+    }
+} = require('bountyblok')
+```
+
+## /v1/log_app
+
+```js
+const request = new LogAppRequest({
+    appId: '<< app_id >>',
+    accountName: 'user123',
+    quantity: 1,
+    param:{
+        orderside: 'sell',
+        ordertype: 'mkt',
+        exchange: 'us'
+    }
+})
+
+client.logAppAsync(request).then((res) => console.log(res) )
+```
+
+## /v1/get_all_levels_progress
+
+```js
+const request = new GetLevelsRequest({
+    appId: '<< app_id >>',
+    accountName: 'user123'
+})
+
+client.getAllLevelsProgressAsync(request).then((res)=>{
+    
+    // returns GetLevelsResponse
+    console.log(res.levels[0].challenges[0].tasks[0].taskName)
+    console.log(res.levels[0].challenges[0].tasks[0].quantityRequired)
+})
+```
+
 <a name="license"></a>
 # License
 [The MIT License (MIT)](https://github.com/bountyblok/bountyblok-nodejs/blob/master/LICENSE.md)

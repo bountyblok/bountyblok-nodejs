@@ -1,7 +1,7 @@
 {
   "name": "bountyblok",
-  "version": "1.0.0",
-  "description": "nodeJS client library for using bountyblok's APIs to log challenge tasks and retrieve progress and achievements.",
+  "version": "1.0.2",
+  "description": "NodeJS client library for using bountyblok's APIs to log challenge tasks and retrieve progress and achievements.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
